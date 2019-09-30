@@ -6,3 +6,5 @@
  * Time: 6:37 PM
  */
 
+
+require_once "../app/bootstrap.php";
