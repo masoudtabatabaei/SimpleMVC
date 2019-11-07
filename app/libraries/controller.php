@@ -8,7 +8,7 @@ abstract class controller
     {
         require_once '../app/models/' . $model . '.php';
 
-        return new $model;
+        return $model::getPDOInstance();
     }
 
     public function view($view, $data = [])
